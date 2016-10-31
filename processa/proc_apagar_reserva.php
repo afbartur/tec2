@@ -31,10 +31,10 @@ $comando_sql2 = "UPDATE cadequipamento SET situacao = '1' WHERE nome = '$equipam
 		
 		}
 	  ?>
-	  </h1>
+	
 	  
 	  
-	  <h1 class="text-center">
+	  
 	  <?php
 	  $resultado2 = mysqli_query($conn, $comando_sql2);
 	  $linhas2 = mysqli_affected_rows();
@@ -53,19 +53,8 @@ $comando_sql2 = "UPDATE cadequipamento SET situacao = '1' WHERE nome = '$equipam
 	  ?>
 	  </h1>
 	  
-	  
-	  
-	  
-	  
 		 <a  class="form-signin" href="index.php?link=38"><input class="btn btn-lg btn-primary  margin40" type = "button" value="Voltar" /></a>
 		
-											
- 
-    
-	  
-	  
-	  
-	  
 	  
         </div>
        
